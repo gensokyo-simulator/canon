@@ -4,16 +4,37 @@
   margin:0 auto;
 }
 
-
+/* header */
 header{
   height:100px;
   width:100%;
-  
+  position:fixed;
+  z-index:9999;
+  top:0;
+  left:0;
   display:block;
-  background-color:#d2f1ff;
-  
+  background-color:#133337;
 }
 
 #header_text{
-  color:#5d478b;
+  line-height:100px;
+  color:#ffffff;
+  float:left;
+}
+
+.header_menu{
+  float:right;
+  list-style:none;
+}
+
+.header_menu li{
+  float:left;
+}
+
+.header_menu a{
+  line-height:100px;
+  color:#ffffff;
+  padding:0 20px;
+  display:block;
+  text-decoration:none;
 }
