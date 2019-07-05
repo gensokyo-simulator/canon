@@ -1,3 +1,3 @@
-window.onload = function(){
-  document.querySelector('header').innerHTML='<object type="text/html" data="header.html"></object>';
-}
+$(document).ready( function() {
+	$("#header_contents").load("header.html");
+});
