@@ -6,6 +6,15 @@
   margin:0 auto;
 }
 
+header{
+  height:100px;
+  width:100%;
+  position:fixed;
+  z-index:9999;
+  top:0;
+  left:0;
+}
+
 /* header */
 .header_menu{
   display:flex;
