@@ -1,1 +1,3 @@
-document.querySelector('header').innerHTML='<object type="text/html" data="header.html"></object>';
+window.onload = function(){
+  document.querySelector('header').innerHTML='<object type="text/html" data="header.html"></object>';
+}
