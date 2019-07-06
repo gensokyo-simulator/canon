@@ -15,37 +15,3 @@ header{
   left:0;
   background-color:#133337;
 }
-
-/* header */
-.header_menu{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction:row;
-  
-  width: auto;
-	min-width: 1200px;
-
-	height: auto;
-	min-height: 100px;
-	max-height: 100px;
-}
-
-.header_text{
-  color:#ffffff;
-  margin:10px;
-  margin-right:25%;
-  padding:10px;
-  border:black solid 1px;
-}
-
-.header_menu li{
-  list-style:none;
-  font-size:large;
-}
-
-.header_menu a{
-  color:#ffffff;
-  padding:0 15px;
-  text-decoration:none;
-}
