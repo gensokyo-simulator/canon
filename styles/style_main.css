@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin-bottom:50px;
+}
+
+main div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+}
+
+main h2{
+  margin:10px;
+}
+
+.yinyang{
+  margin-top:-336px;
+  margin-bottom:100px;
+  z-index:9999;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin{
+  100% {
+    transform: rotate(360deg);
+  }
+}

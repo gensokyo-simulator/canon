@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+aside{
+  width:200px;
+  height:512px;
+  position:fixed;
+  z-index:9998;
+  top:0;
+  right:0;
+  margin:20px;
+  margin-top:120px;
+}
+
+body{
+  overflow-y:scroll;
+  background-color:#f5f5f5;
+}
