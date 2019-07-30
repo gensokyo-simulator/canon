@@ -283,22 +283,22 @@ window.onload=function(){
     if(name.length > 1){
       switch(name[1]){
         case 'playable':{
-          character[i].querySelector("h5").style.backgroundColor = "#ff0000";
+          character[i].querySelector("h5").style.backgroundColor = "#f6546a";
           break;
         }
 
         case 'final_boss':{
-          character[i].querySelector("h5").style.backgroundColor = "#8a2be2";
+          character[i].querySelector("h5").style.backgroundColor = "#3399ff";
           break;
         }
 
         case 'extra':{
-          character[i].querySelector("h5").style.backgroundColor = "#666666";
+          character[i].querySelector("h5").style.backgroundColor = "#133337";
           break;
         }
 
         case 'phantasm':{
-          character[i].querySelector("h5").style.backgroundColor = "#ff00ff";
+          character[i].querySelector("h5").style.backgroundColor = "#ff80ed";
           break;
         }
       }
