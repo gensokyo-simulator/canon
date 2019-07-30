@@ -27,11 +27,30 @@ main{
   background-color:#ffffff;
 }
 
-.piece h2{
+.piece>h2{
   margin:20px;
   padding-bottom:10px;
   color:#133337;
   border-bottom:#dddddd solid 1px;
+}
+
+#contents>h2{
+  margin:20px;
+  margin-bottom:10px;
+  padding-bottom:10px;
+  color:#133337;
+  border-bottom:#dddddd solid 1px;
+}
+
+#contents a{
+  text-decoration:none;
+}
+
+#contents li{
+  margin:0px;
+  margin-left:10px;
+  padding-bottom:10px;
+  color:#133337;
 }
 
 .character_list{
